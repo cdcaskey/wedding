@@ -16,6 +16,35 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 /* ]]> */
 </script>
+<style id="masthead-dropper" type="text/css">
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block !important;
+        z-index: 100;   
+    }
+
+    .main-navigation {
+        padding: 0 2em;
+        margin: 0 -2em;
+        background-color: #00000033;
+        border: none !important;
+    }
+
+    .main-navigation ul li a {
+        color: white !important;
+    }
+
+    #banner {
+        max-height: 100vh !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        z-index: 2;
+    }
+</style>
 <style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
 		display: inline !important;
 		border: none !important;
@@ -250,10 +279,12 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="./menu/index.html">Menu</a></li>
 </ul></div>            </div>
         </div>
-	</nav><!-- #site-navigation -->
-                            </div> <!-- .nav-wrap -->
+	</nav>
+                            </div> 
         </div>
     </header>
+
+
             <div id="banner_section" class="site-banner banner">
                 <div class="banner-wrap owl-carousel">            
                                         <div class="banner-item">
@@ -261,29 +292,38 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                             <div class="banner-caption">
                                 <div class="container">
                                     <div class="banner-caption-inner">
-                                        <h2 class="title"><a href="./2025/11/15/lauren-and-chris-caskey/index.html" rel="bookmark">Lauren &amp; Christopher Caskey</a></h2>
-<span class="posted-on"><a href="./2025/11/15/lauren-and-chris-caskey/index.html" rel="bookmark"><time class="entry-date published updated" datetime="2024-05-20T22:38:21+00:00" itemprop="dateModified">May 20, 2024</time><time class="updated" datetime="2025-11-15T21:26:00+00:00" itemprop="datePublished">November 15, 2025</time></a></span>                                    </div>
+                                        <h2 class="title">Lauren &amp; Christopher Caskey</h2>
+<span class="posted-on"><time class="entry-date published updated" datetime="2024-05-20T22:38:21+00:00" itemprop="dateModified">November 15, 2025</time><time class="updated" datetime="2025-11-15T21:26:00+00:00" itemprop="datePublished">November 15, 2025</time></span>                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                                        <div class="banner-item">
+                        <img width="1697" height="940" src="./wp-content/uploads/2024/05/20230220_211015-1697x940.jpg" class="attachment-blossom-wedding-slider size-blossom-wedding-slider wp-post-image" alt="" itemprop="image" decoding="async">                        
+                            <div class="banner-caption">
+                                <div class="container">
+                                    <div class="banner-caption-inner">
+                                        <h2 class="title">Lauren &amp; Christopher Caskey</h2>
+<span class="posted-on"><time class="entry-date published updated" datetime="2024-08-07T06:40:33+00:00" itemprop="dateModified">November 15, 2025</time><time class="updated" datetime="2024-05-20T22:37:20+00:00" itemprop="datePublished">November 15, 2025</time></span>                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                                        <div class="banner-item">
+                        <img width="1697" height="940" src="./wp-content/uploads/2025/11/IMG_5415_63a4897dec3c1-1697x940.jpg" class="attachment-blossom-wedding-slider size-blossom-wedding-slider wp-post-image" alt="" itemprop="image" decoding="async">                        
+                            <div class="banner-caption">
+                                <div class="container">
+                                    <div class="banner-caption-inner">
+                                        <h2 class="title">Lauren &amp; Christopher Caskey</h2>
+<span class="posted-on"><time class="entry-date published updated" datetime="2024-08-07T06:40:29+00:00" itemprop="dateModified">November 15, 2025</time><time class="updated" datetime="2024-05-20T22:37:20+00:00" itemprop="datePublished">November 15, 2025</time></span>                                    </div>
                                 </div>
                             </div>
                                             </div>
                                             
                 </div>
-                <button class="scroll-down"></button>                
+                               
             </div>
         
 <div id="content" class="site-content">
-</div>    <footer id="colophon" class="site-footer" style="background-image: url('./wp-content/themes/blossom-wedding/images/footer-bg.jpg');" itemscope itemtype="http://schema.org/WPFooter">
-        <div class="footer-b">
-		<div class="container">
-			<div class="site-info">            
-            <span class="copyright">&copy; Copyright 2024 <a href="./index.html">Lauren &amp; Christopher Caskey</a>. All Rights Reserved. </span> Blossom Wedding | Developed By <a href="https://blossomthemes.com/" rel="nofollow" target="_blank">Blossom Themes</a>. Powered by <a href="https://wordpress.org/" target="_blank">WordPress</a>.                
-            </div>
-		</div>
-	</div>
-        <button id="back-to-top">
-		<span><i class="fas fa-long-arrow-alt-up"></i></span>
-	</button>
-        </footer><!-- #colophon -->
+</div>  
         </div>
 <!-- #page -->
     <script type="text/javascript" src="./wp-content/plugins/blossomthemes-toolkit/public/js/isotope.pkgd.min.js?ver=3.0.5" id="isotope-pkgd-js"></script>
