@@ -17,6 +17,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 /* ]]> */
 </script>
 <style id="masthead-dropper" type="text/css">
+@media screen and (min-width: 1024px) {
     header {
         position: absolute;
         top: 0;
@@ -44,6 +45,17 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
         left: 0 !important;
         z-index: 2;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        background-color: #040404;
+    }
+
+    header {
+        padding: 1em;
+    }
+}
 </style>
 <style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
 		display: inline !important;
